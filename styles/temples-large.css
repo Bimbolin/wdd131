@@ -1,0 +1,13 @@
+@media (min-width: 600px) {
+    #sidebar-menu {
+        display: flex;
+        position: static;
+        flex-direction: column;
+        flex: 1 1 100%;
+    }
+
+    #hamburger-menu {
+        display: none;
+    
+    }
+}
