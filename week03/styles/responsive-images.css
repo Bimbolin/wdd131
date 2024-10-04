@@ -1,0 +1,15 @@
+/* Method 1: Maintain Aspect Ratio */
+.hero img {
+    width: 100%;
+    height: auto;
+  }
+  /* Method 2: Use object-fit */
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero {
+    aspect-ratio: 2 / 1; /* This sets the aspect ratio to 2:1 */
+  }
