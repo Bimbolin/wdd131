@@ -45,8 +45,6 @@ p {
 
 #card, #weather {
     margin-bottom: 2rem;
-    padding: 1rem;
-    display: block;
 }
 
 #card h2, #weather h2 {
