@@ -38,6 +38,9 @@ main {
 .hero picture {
     display: block;
 }
+img {
+    width: auto;
+}
 
 .data-section, .weather-section {
     position: absolute;
