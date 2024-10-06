@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> New York WDD 131 - Dynamic Web Fundamentals - Bimbola Osho-Lowu</title>
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Bimbola Osho-Lowu - place where you live or have visited or wish to visit. ">
+    <title>New York WDD 131 - Dynamic Web Fundamentals - Bimbola Osho-Lowu</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Bimbola Osho-Lowu - place where you live or have visited or wish to visit.">
     <meta name="author" content="Bimbola Osho-Lowu">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/place.css">
@@ -18,44 +18,50 @@
     <main>
         <div class="hero">
             <picture>
-                <source media="(min-width:750px)" srcset="images/new-york-city.webp" width="1700" height="850"  >
+                <source media="(min-width:750px)" srcset="images/new-york-city.webp" width="1700" height="850">
                 <img src="images/new_york_low.webp" alt="new-york" style="width:auto;">
             </picture>
-            <div class="card-content">
-                <div class="data-section">
-                    <h2>Data</h2>
-                    <p><strong>Area:</strong> 468.9</p>
-                    <p><strong>Population:</strong> 8.4 million</p>
-                    <p><strong>Capital:</strong> Albany</p>
-                    <p><strong>Time Zone:</strong>UTC -5:00 (Standard Time)</p>
-                    <p><strong>Currency:</strong> USD</p>
-                    <p><strong>Languages:</strong> English</p>
-                    <p><strong>Calling Code:</strong> +1</p>
+            <div class="data-section">
+                <h2>Data</h2>
+                <p><strong>Area:</strong> 468.9</p>
+                <p><strong>Population:</strong> 8.4 million</p>
+                <p><strong>Capital:</strong> Albany</p>
+                <p><strong>Time Zone:</strong> UTC -5:00 (Standard Time)</p>
+                <p><strong>Currency:</strong> USD</p>
+                <p><strong>Languages:</strong> English</p>
+                <p><strong>Calling Code:</strong> +1</p>
+            </div>
+            <div class="weather-section">
+                <h2>Weather ⛅</h2>
+                <div class="weather-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="24" height="24">
+                        <g fill="#f9c802">
+                            <circle cx="32" cy="32" r="10"/>
+                        </g>
+                        <g fill="#f4f4f4">
+                            <path d="M50.5 34.5c-1.4 0-2.7.3-3.9.8-1.2-3.6-4.6-6.3-8.6-6.3-4.1 0-7.5 2.7-8.6 6.3-1.2-.5-2.5-.8-3.9-.8-5.5 0-10 4.5-10 10s4.5 10 10 10h25c5.5 0 10-4.5 10-10s-4.5-10-10-10z"/>
+                        </g>
+                    </svg>
+                    <span>Temperature:</span>
+                    <span id="temp"></span>
                 </div>
-                <div class="weather-section">
-                    <h2>Weather ⛅</h2>
-                    <div>
-                        <span>Temperature:</span>
-                        <span id="temp"></span>
-                    </div>
-                    <div>
-                        <span>Conditions:</span>
-                        <span id="conditions">Partly Cloudy</span>
-                    </div>
-                    <div>
-                        <span>Wind Speed:</span>
-                        <span id="wind"></span>
-                    </div>
-                    <div>
-                        <span>Wind Chill:</span>
-                        <span id="chill"></span>
-                    </div>
-                    <div>
-                        <button id="chillButton">Calculate Wind Chill</button>
-                    </div>
+                <div>
+                    <span>Conditions:</span>
+                    <span id="conditions">Partly Cloudy</span>
+                </div>
+                <div>
+                    <span>Wind Speed:</span>
+                    <span id="wind"></span>
+                </div>
+                <div>
+                    <span>Wind Chill:</span>
+                    <span id="chill"></span>
+                </div>
+                <div>
+                    <button id="chillButton">Calculate Wind Chill</button>
                 </div>
             </div>
-          </div>
+        </div>
     </main>
     <footer>
         <p>©<span id="currentyear"></span> Bimbola Osho-Lowu, Nigeria.</p>
