@@ -54,6 +54,14 @@ h2 {
     flex-direction: column;
     align-items:center; 
 }
+h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: rgba(77, 100, 82, 0.8);
+    margin: 8px auto 0;
+}
 
 .data-section {
     left: 20px;

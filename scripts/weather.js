@@ -16,9 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('chillButton').addEventListener('click', handleClick);
 
-    // Calculate wind chill on page load
+    
     handleClick();
 });
+
+
 
 
 
