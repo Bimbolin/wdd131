@@ -1,0 +1,18 @@
+
+@media screen and (min-width: 768px) {
+    #sidebar-menu {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        width: auto;
+    }
+
+    #sidebar-menu ul {
+        flex-direction: row;
+    }
+
+    #sidebar-menu li {
+        border-bottom: none;
+        padding: 10px 15px;
+    }
+}
