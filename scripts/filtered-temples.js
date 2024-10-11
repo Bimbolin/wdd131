@@ -73,7 +73,7 @@ const temples = [
 	  "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/copenhagen-denmark/400x250/copenhagen-denmark-temple-lds-278232-wallpaper.jpg"
 	},
       {
-        templeName: "Cordoba Argentina",
+    templeName: "Cordoba Argentina",
 	  location: "Cordoba, Argentina",
 	  dedicated: "2015, May, 17",
 	  area: 30000,
@@ -81,12 +81,12 @@ const temples = [
 	  "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cordoba-argentina/2018/400x250/Cordoba-Argentina-Temple01.jpg"
 	},
       {
-        templeName: "Accra Ghana Temple",
-        location: "Accra, Ghana",
-        dedicated: "2004, January, 11",
-        area: 17500,
+        templeName: "Porto Alegre Brazil Temple",
+        location: "Porto Alegre City, Brazil",
+        dedicated: "2000, December, 17",
+        area: 10700,
         imageUrl:
-        "https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple/accra-ghana-temple-8204-thumb.jpg"
+       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/porto-alegre-brazil/400x250/puerto-alegre-brazil-temple-lds-1027294-wallpaper.jpg"
       }
     ];
 

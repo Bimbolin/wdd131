@@ -86,17 +86,17 @@ h2 {
 .album {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
     padding: 20px;
     grid-gap: 20px;
+    border: 2px solid #ffffff;
+    align-items: center;
+    justify-content: center;
 }
 
 figure {
     margin: 20px;
     max-width: 400px;
-    border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: white;
     padding: 10px;
     text-align: center;
 
@@ -112,7 +112,7 @@ figure img {
 }
 
 figcaption {
-    text-align: center;
+    text-align: left;
     padding: 5px;
 }
 
